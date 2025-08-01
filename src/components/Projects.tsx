@@ -9,16 +9,6 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Student Management System",
-      description: "A comprehensive C++ application for managing student records with file handling and data structures implementation.",
-      tech: ["C++", "File Handling", "OOP"],
-      category: "C-Programs",
-      github: "https://github.com/ekaagragupta",
-      live: "#",
-      image: "🎓",
-      status: "Completed"
-    },
-    {
       title: "Weather Prediction ML Model",
       description: "Machine learning model to predict weather patterns using historical data with 85% accuracy rate.",
       tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
@@ -26,36 +16,36 @@ const Projects = () => {
       github: "https://github.com/ekaagragupta",
       live: "#",
       image: "🌤️",
-      status: "Completed"
+      status: "In Progress"
     },
     {
       title: "Portfolio Website",
       description: "Responsive personal portfolio website built with modern web technologies and smooth animations.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       category: "Web Dev",
-      github: "https://github.com/ekaagragupta",
+      github: "https://github.com/ekaagragupta/ekaagra-code-flow",
       live: "#",
       image: "💼",
-      status: "In Progress"
+      status: "Completed"
     },
     {
-      title: "Neural Network from Scratch",
-      description: "Implementation of a basic neural network in Python without using ML libraries to understand fundamentals.",
-      tech: ["Python", "NumPy", "Mathematics"],
+      title: "Jarvis AI Assistant",
+      description: "An AI-powered virtual assistant that can perform tasks like setting reminders, answering queries, and controlling smart devices.",
+      tech: ["Python", "NumPy", "Speech Recognition", "Flask"],
       category: "AI-ML",
-      github: "https://github.com/ekaagragupta",
+      github: "https://github.com/ekaagragupta/Jarvis",
       live: "#",
       image: "🧠",
       status: "Completed"
     },
     {
-      title: "E-commerce Landing Page",
-      description: "Modern and responsive e-commerce landing page with interactive elements and smooth user experience.",
-      tech: ["HTML", "CSS", "JavaScript", "GSAP"],
-      category: "Web Dev",
-      github: "https://github.com/ekaagragupta",
+      title: "Emily Bot ",
+      description: "An AI chatbot that automatically replies to user queries using natural language processing techniques.",
+      tech: ["Python", "OpenAI","PyAutoGUI", "Flask", "TensorFlow"],
+      category: "AI-ML",
+      github: "https://github.com/ekaagragupta/auto-reply-ai-chatbot",
       live: "#",
-      image: "🛒",
+      image: "🤖",
       status: "Completed"
     },
     {
@@ -66,8 +56,18 @@ const Projects = () => {
       github: "https://github.com/ekaagragupta",
       live: "#",
       image: "📊",
+      status: "In Progress"
+    },
+    {
+      title: "IEEE Computational Intelligence Society Website",
+      description: "Contributed to the development of the IEEE CIS website, enhancing user experience and functionality with modern web technologies.",
+      tech: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+      category: "Web Dev",
+      github: "https://github.com/ekaagragupta/IEEE_CIS_25",
+      live: "https://ieee-cis-muj.vercel.app/",
+      image: "🌐",
       status: "Completed"
-    }
+    },
   ];
 
   const filteredProjects = activeFilter === "All" 
