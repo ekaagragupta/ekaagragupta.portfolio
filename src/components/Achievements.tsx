@@ -7,56 +7,56 @@ const Achievements = () => {
   const achievements = [
     {
       icon: Trophy,
-      title: "Coding Competition Winner",
-      category: "Programming",
-      year: "2024",
-      description: "Secured top position in inter-college coding competition with innovative algorithmic solutions.",
-      details: "Solved complex data structure problems under time constraints, demonstrating strong problem-solving skills and algorithmic thinking.",
+      title: "Prompt Engineering & Programming with OpenAI",
+      category: "Columbia University",
+      year: "2025",
+      description: "Completed a comprehensive course on prompt engineering and programming with OpenAI, mastering techniques to build AI applications.",
+      details: "Learned advanced prompt design, API integration, and AI application development using OpenAI's tools.",
       color: "from-yellow-400 to-orange-500"
     },
     {
       icon: Award,
-      title: "Academic Excellence",
-      category: "Education",
-      year: "2023-24",
-      description: "Maintained high GPA throughout the academic year with consistent performance.",
-      details: "Achieved distinction in core computer science subjects including Data Structures, Algorithms, and Mathematics.",
+      title: "Essentials in Generative AI",
+      category: "Microsoft and LinkedIn",
+      year: "2025",
+      description: "Completed a certification in Generative AI, focusing on foundational concepts and practical applications.",
+      details: "Gained insights into generative models, their applications in various domains, and hands-on experience with AI tools.",
       color: "from-blue-400 to-purple-500"
     },
     {
       icon: Star,
-      title: "First ML Project",
-      category: "AI/ML",
-      year: "2024",
-      description: "Successfully completed first machine learning project with impressive accuracy.",
-      details: "Built a classification model achieving 90%+ accuracy using Python and scikit-learn, demonstrating practical ML implementation skills.",
+      title: "Introduction to Generative AI Studio",
+      category: "Google Cloud Skills Boost",
+      year: "2025",
+      description: " Completed an introductory course on Google Cloud's Generative AI Studio, learning to build and deploy AI models.",
+      details: "Explored Google Cloud's AI tools, focusing on model training, deployment, and integration with applications.",
       color: "from-green-400 to-teal-500"
     },
     {
       icon: Medal,
-      title: "Web Development Certification",
-      category: "Web Dev",
-      year: "2024",
-      description: "Completed comprehensive web development course with distinction.",
-      details: "Mastered HTML, CSS, JavaScript, and React.js through hands-on projects and real-world applications.",
+      title: "Generative AI: The Evolution of Thoughtful Online Search",
+      category: "LinkedIn Learning",
+      year: "2025",
+      description: "Completed a course on the evolution of online search with Generative AI, understanding its impact on information retrieval.",
+      details: "Learned how Generative AI transforms search engines, enhancing user experience and information discovery and retrieval.",
       color: "from-pink-400 to-red-500"
     },
     {
       icon: Zap,
-      title: "Fast Learner Recognition",
-      category: "Skills",
-      year: "2024",
-      description: "Recognized for rapid adaptation to new technologies and programming languages.",
-      details: "Demonstrated ability to quickly master new frameworks and tools, contributing to team projects effectively.",
+      title: "Advanced Software Engineering",
+      category: "Company- Walmart USA",
+      year: "2025",
+      description: "Completed an advanced software engineering course focusing on modern development practices and tools.",
+      details: "Covered topics like microservices, cloud-native development, and DevOps practices,  preparing for real-world software engineering challenges.",
       color: "from-indigo-400 to-blue-500"
     },
     {
       icon: Target,
-      title: "100 Days of Code",
-      category: "Challenge",
-      year: "2024",
-      description: "Successfully completed 100 days of continuous coding challenge.",
-      details: "Committed to daily coding practice, building projects ranging from algorithms to full-stack applications.",
+      title: "GenAI Powered Data Analytics ",
+      category: "Company- Tata Group",
+      year: "2025",
+      description: "Completed a course on GenAI powered data analytics, learning to leverage AI for data-driven decision making.",
+      details: "Explored AI techniques for data analysis, visualization, and predictive modeling, enhancing skills in data science and analytics using AI tools and frameworks.",
       color: "from-purple-400 to-pink-500"
     }
   ];
@@ -70,7 +70,7 @@ const Achievements = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-tech mx-auto rounded-full" />
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto">
-            Milestones and recognitions that mark my journey in technology
+            Certifications that mark my journey in technology
           </p>
         </div>
 
@@ -164,7 +164,7 @@ const Achievements = () => {
               <div className="text-sm text-muted-foreground">Competitions</div>
             </div>
             <div className="tech-card">
-              <div className="text-3xl font-bold gradient-text mb-2">5+</div>
+              <div className="text-3xl font-bold gradient-text mb-2">15+</div>
               <div className="text-sm text-muted-foreground">Certifications</div>
             </div>
           </div>

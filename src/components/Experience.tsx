@@ -7,37 +7,78 @@ const Experience = () => {
 
   const timelineData = [
     {
-      year: "2023 - Present",
+      year: "2024 - Present",
       title: "B.Tech CSE (AI/ML)",
-      subtitle: "University Studies",
+      subtitle: "Manipal University Jaipur ",
       description: "Pursuing Computer Science Engineering with specialization in Artificial Intelligence and Machine Learning. Currently in 2nd year with focus on core programming concepts and AI fundamentals.",
       icon: GraduationCap,
       color: "primary"
     },
     {
-      year: "2023",
-      title: "Started Programming Journey",
-      subtitle: "Learning Foundation",
-      description: "Began with C programming and gradually expanded to Python, JavaScript, and other languages. Built first console applications and learned algorithmic thinking.",
-      icon: Code,
+      year: "2024",
+      title: "Innovation Ambassador",
+      subtitle: "Innovation cell ,Ministry of Education",
+      description: "Selected as an Innovation Ambassador to promote innovation and entrepreneurship among students. Engaged in workshops, hackathons, and mentoring sessions to foster a culture of innovation.",
+      icon: Trophy,
       color: "secondary"
     },
     {
-      year: "2023 - 2024",
-      title: "First Projects & Competitions",
-      subtitle: "Practical Application",
-      description: "Participated in coding competitions, built web applications, and started exploring machine learning concepts. Created several projects using different programming languages.",
+      year: "2025",
+      title: "Tech-Contributor at GSSoC",
+      subtitle: "Open Source Contributions",
+      description: "Contributed to open source projects during GSSoC, enhancing skills in collaboration, version control, and real-world software development practices.",
+      icon: Code,
+      color: "accent"
+    },
+    {
+      year: "2025",
+      title: "Internshala Student Partner",
+      subtitle: "Company- Internshala",
+      description: "Served as an Internshala Student Partner, promoting online learning and internships among peers. Organized workshops and webinars to help students gain practical skills.",
+      icon: BookOpen,
+      color: "primary"
+    },
+     {
+      year: "2025",
+      title: "Technical Joint head",
+      subtitle: "DevForge Club ",
+      description: "Leading the technical team of DevForge Club, focusing on organizing coding events, workshops, and hackathons to enhance technical skills among club members.",
+      icon: Code,
+      color: "primary"
+    },
+    {
+      year: "2025",
+      title: "Deputy Secretary",
+      subtitle: "Teach for India Club",
+      description: " Bridging cross domains—coordinating efforts in managing the Teach for India Club, focusing on educational initiatives and community outreach programs to promote quality education.",
+      icon: BookOpen,
+      color: "secondary"
+    },
+    {
+      year: "2025",
+      title: "Joint head of Sponsorship & Curations",
+      subtitle: "IEEE Computational Intelligence Society, MUJ",
+      description: "Managing sponsorships and curations for IEEE CIS, ensuring successful events and collaborations. Focused on enhancing the society's outreach and engagement through strategic partnerships.",
       icon: Trophy,
       color: "accent"
     },
     {
-      year: "2024",
-      title: "AI/ML Deep Dive",
-      subtitle: "Specialization Focus",
-      description: "Intensified focus on artificial intelligence and machine learning. Started working on ML projects, learning popular frameworks, and understanding neural networks.",
-      icon: BookOpen,
+      year: "2025",
+      title: "Marketing Senior Working Team Member",
+      subtitle: "AI-ML Community, MUJ",
+      description: "Contributing to the AI-ML Community's marketing efforts, promoting events and initiatives through social media and outreach programs. Focused on increasing community engagement and awareness.",
+      icon: GraduationCap,
       color: "primary"
+    },
+    {
+      year: "2025",
+      title: "Corporate Core Committee Member",
+      subtitle: "Genesis Tech Fest, MUJ",
+      description: "Assisting in organizing the Genesis Tech Fest, focusing on corporate partnerships and sponsorships. Aimed at enhancing the fest's industry connections and providing students with networking opportunities.",
+      icon: Code,
+      color: "secondary"
     }
+
   ];
 
   useEffect(() => {

@@ -49,19 +49,19 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect with me",
-      href: "#",
+      href: "https://www.linkedin.com/in/ekaagragupta/",
       color: "text-blue-400"
     },
     {
       icon: Mail,
       label: "Email",
       value: "ekaagra@example.com",
-      href: "mailto:ekaagra@example.com",
+      href: "mailto:ekaagrag2006@gmail.com",
       color: "text-secondary"
     },
     {
       icon: MapPin,
-      label: "Location",
+      label: "Jaipur , Rajasthan",
       value: "India",
       href: "#",
       color: "text-accent"
@@ -121,7 +121,7 @@ const Contact = () => {
               </div>
               <div className="tech-card text-center">
                 <div className="text-2xl font-bold gradient-text mb-1">100%</div>
-                <div className="text-sm text-muted-foreground">Satisfaction</div>
+                <div className="text-sm text-muted-foreground">Contribution</div>
               </div>
             </div>
           </div>

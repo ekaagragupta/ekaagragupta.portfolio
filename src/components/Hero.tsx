@@ -40,7 +40,7 @@ const Hero = () => {
           
           {/* Title */}
           <h2 className="text-2xl md:text-4xl font-semibold text-muted-foreground animate-fade-in animation-delay-200">
-            CSE Undergrad | AI/ML Enthusiast
+            Computer science major | AI/ML Enthusiast | Open-source contributor
           </h2>
           
           {/* Animated subtitle */}
@@ -53,7 +53,9 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8 animate-fade-in animation-delay-600">
             <Button size="lg" className="tech-glow group">
               <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+              <a href="src/components/resume_eg.pdf" download className="flex items-center">
               Download My CV
+              </a>
             </Button>
             <Button variant="outline" size="lg" className="border-primary/50 hover:border-primary">
               <a href="#contact" className="flex items-center">
@@ -73,13 +75,13 @@ const Hero = () => {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/ekaagragupta/" 
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-110 tech-glow"
             >
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="#contact" 
+              href="mailto:ekaagrag2006@gmail.com" 
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-110 tech-glow"
             >
               <Mail className="h-6 w-6" />

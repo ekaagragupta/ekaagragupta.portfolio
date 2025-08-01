@@ -122,8 +122,10 @@ const Navigation = () => {
             ))}
             <div className="pt-3 border-t border-border/50">
               <Button size="sm" className="w-full tech-glow">
+              <a href="/Ekaagra_Gupta_CV.pdf">
                 <Download className="h-4 w-4 mr-2" />
                 Download Resume
+              </a>
               </Button>
             </div>
           </div>

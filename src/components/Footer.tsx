@@ -27,13 +27,13 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/ekaagragupta/" 
                 className="p-2 rounded-full bg-card border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-110 tech-glow"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="#contact" 
+                href="mailto:ekaagrag2006@gmail.com" 
                 className="p-2 rounded-full bg-card border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-110 tech-glow"
               >
                 <Mail className="h-5 w-5" />

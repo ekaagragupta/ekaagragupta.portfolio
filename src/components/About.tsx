@@ -5,7 +5,7 @@ const About = () => {
   const interests = [
     { icon: Brain, title: "Machine Learning", desc: "Deep learning, neural networks, and AI algorithms" },
     { icon: Code, title: "Web Development", desc: "Full-stack development with modern frameworks" },
-    { icon: Database, title: "Data Science", desc: "Data analysis and visualization techniques" },
+    { icon: Database, title: "Artifical intelligence", desc: "AI-powered solutions, from predictive models and neural networks to natural language processing and computer vision" },
     { icon: Sparkles, title: "Problem Solving", desc: "Competitive programming and algorithmic thinking" }
   ];
 
@@ -24,23 +24,23 @@ const About = () => {
           <div className="space-y-6">
             <div className="tech-card">
               <p className="text-lg leading-relaxed mb-6">
-                I'm a passionate <span className="text-primary font-semibold">2nd-year Computer Science Engineering student</span> with 
+                I'm a passionate <span className="text-primary font-semibold">2nd-year Computer Science Engineering Major</span> with 
                 a specialization in <span className="text-accent font-semibold">Artificial Intelligence and Machine Learning</span>. 
-                Currently pursuing my B.Tech degree, I'm deeply fascinated by the intersection of technology and innovation.
+                Currently pursuing my B.Tech degree from Manipal University Jaipur, I'm deeply fascinated by the intersection of technology and innovation.
               </p>
               
               <p className="text-muted-foreground leading-relaxed mb-6">
                 My journey in tech started with curiosity about how machines can think and learn. Today, I'm actively 
-                exploring various domains including machine learning algorithms, web development, and competitive programming. 
+                exploring various domains including machine learning algorithms,Artifical Intelligence, web development, and competitive programming. 
                 I believe in learning by doing and constantly challenging myself with new projects and technologies.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="tech-glow">
-                  <a href="#contact">Contact Me</a>
+                       <a href="#contact">Contact Me</a>
                 </Button>
                 <Button variant="outline" className="border-secondary/50 hover:border-secondary">
-                  View My Work
+                      <a href="#projects">View Work</a>
                 </Button>
               </div>
             </div>
