@@ -1,5 +1,5 @@
 
-# 🌐 P Portfolio Website
+# 🌐  Portfolio Website
 
 Welcome to my personal developer portfolio built using **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. This website showcases my skills, projects, achievements, experience, and more in an interactive and visually engaging manner.
 
