@@ -53,7 +53,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8 animate-fade-in animation-delay-600">
             <Button size="lg" className="tech-glow group">
               <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-              <a href="src/components/resume_eg.pdf" download className="flex items-center">
+              <a href="resume_eg.pdf" download className="flex items-center">
               Download My CV
               </a>
             </Button>
