@@ -9,13 +9,13 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Weather Prediction ML Model",
-      description: "Machine learning model to predict weather patterns using historical data with 85% accuracy rate.",
-      tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+      title: "AuthentiGuard",
+      description: "Built a multimodal AI system to classify social media accounts as human or bot using profile metadata, text (BERT), images (CLIP), behavioral patterns, and graph/network features. Implemented baseline models (XGBoost), fine-tuned transformers for text, and fused embeddings for multimodal classification. Evaluated using precision, recall, F1, and ROC-AUC; deployed a demo with explainability (SHAP).",
+      tech: ["Python", "PyTorch"," Hugging Face", "CLIP", "scikit-learn","FastAPI", "SHAP"],
       category: "AI-ML",
       github: "https://github.com/ekaagragupta",
       live: "#",
-      image: "🌤️",
+      image: "🛡️",
       status: "In Progress"
     },
     {
