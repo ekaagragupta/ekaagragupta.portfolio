@@ -9,6 +9,16 @@ const Projects = () => {
 
   const projects = [
     {
+  "title": "MCA e-Consultation Sentiment Analyzer",
+  "description": "Developed an AI-powered dashboard for the Ministry of Corporate Affairs that classifies citizen feedback into sentiments (positive, negative, neutral), extracts key themes with word clouds, and generates concise summaries to assist policymakers in decision-making.",
+  "tech": ["React", "TypeScript", "Tailwind CSS", "Vite", "Recharts", "Lucide-react", "Python", "scikit-learn", "NLP"],
+  "category": "AI-ML",
+  "github": "https://github.com/ekaagragupta/MCA_e-_Consultation",
+  "live": "#",
+  "image": "📊",
+  "status": "Hackathon Prototype"
+    },
+    {
       title: "AuthentiGuard",
       description: "Built a multimodal AI system to classify social media accounts as human or bot using profile metadata, text (BERT), images (CLIP), behavioral patterns, and graph/network features. Implemented baseline models (XGBoost), fine-tuned transformers for text, and fused embeddings for multimodal classification. Evaluated using precision, recall, F1, and ROC-AUC; deployed a demo with explainability (SHAP).",
       tech: ["Python", "PyTorch"," Hugging Face", "CLIP", "scikit-learn","FastAPI", "SHAP"],
