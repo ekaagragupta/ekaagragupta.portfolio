@@ -77,8 +77,16 @@ const Experience = () => {
       description: "Assisting in organizing the Genesis Tech Fest, focusing on corporate partnerships and sponsorships. Aimed at enhancing the fest's industry connections and providing students with networking opportunities.",
       icon: Code,
       color: "secondary"
+    },
+    {
+      year: "2025",
+      title: "Technical Team Member",
+      subtitle: "Google Developers Group",
+      description: "Lead coding sessions, design workshops, and collaborate on scalable technical solutions for community-driven projects by troubleshooting complex issues and contributing to open-source initiatives, and integrating the latest Google technologies into community events and hackathons",
+      icon: Code,
+      color: "primary"
+      
     }
-
   ];
 
   useEffect(() => {
