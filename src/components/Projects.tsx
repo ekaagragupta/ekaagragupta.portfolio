@@ -8,26 +8,18 @@ const Projects = () => {
   const filters = ["All", "AI-ML", "Web Dev", "C-Programs"];
 
   const projects = [
+    
     {
   "title": "MCA e-Consultation Sentiment Analyzer",
   "description": "Developed an AI-powered dashboard for the Ministry of Corporate Affairs that classifies citizen feedback into sentiments (positive, negative, neutral), extracts key themes with word clouds, and generates concise summaries to assist policymakers in decision-making.",
   "tech": ["React", "TypeScript", "Tailwind CSS", "Vite", "Recharts", "Lucide-react", "Python", "scikit-learn", "NLP"],
-  "category": "AI-ML",
+  "category": "Data analysis system",
   "github": "https://github.com/ekaagragupta/MCA_e-_Consultation",
   "live": "#",
   "image": "📊",
   "status": "Hackathon Prototype"
     },
-    {
-      title: "AuthentiGuard",
-      description: "Built a multimodal AI system to classify social media accounts as human or bot using profile metadata, text (BERT), images (CLIP), behavioral patterns, and graph/network features. Implemented baseline models (XGBoost), fine-tuned transformers for text, and fused embeddings for multimodal classification. Evaluated using precision, recall, F1, and ROC-AUC; deployed a demo with explainability (SHAP).",
-      tech: ["Python", "PyTorch"," Hugging Face", "CLIP", "scikit-learn","FastAPI", "SHAP"],
-      category: "AI-ML",
-      github: "https://github.com/ekaagragupta",
-      live: "#",
-      image: "🛡️",
-      status: "In Progress"
-    },
+    
     {
       title: "Portfolio Website",
       description: "Responsive personal portfolio website built with modern web technologies and smooth animations.",
@@ -38,36 +30,7 @@ const Projects = () => {
       image: "💼",
       status: "Completed"
     },
-    {
-      title: "Jarvis AI Assistant",
-      description: "An AI-powered virtual assistant that can perform tasks like setting reminders, answering queries, and controlling smart devices.",
-      tech: ["Python", "NumPy", "Speech Recognition", "Flask"],
-      category: "AI-ML",
-      github: "https://github.com/ekaagragupta/Jarvis",
-      live: "#",
-      image: "🧠",
-      status: "Completed"
-    },
-    {
-      title: "Emily Bot ",
-      description: "An AI chatbot that automatically replies to user queries using natural language processing techniques.",
-      tech: ["Python", "OpenAI","PyAutoGUI", "Flask", "TensorFlow"],
-      category: "AI-ML",
-      github: "https://github.com/ekaagragupta/auto-reply-ai-chatbot",
-      live: "#",
-      image: "🤖",
-      status: "Completed"
-    },
-    {
-      title: "Sorting Algorithm Visualizer",
-      description: "Interactive C program that visualizes different sorting algorithms with step-by-step execution.",
-      tech: ["C", "Graphics", "Algorithms"],
-      category: "C-Programs",
-      github: "https://github.com/ekaagragupta",
-      live: "#",
-      image: "📊",
-      status: "In Progress"
-    },
+    
     {
       title: "IEEE Computational Intelligence Society Website",
       description: "Contributed to the development of the IEEE CIS website, enhancing user experience and functionality with modern web technologies.",
