@@ -8,7 +8,38 @@ const Projects = () => {
   const filters = ["All", "AI-ML", "Web Dev", "C-Programs"];
 
   const projects = [
+{
+  title: "MemoRAG: Memory-Augmented RAG Framework",
+  description: "Designed a memory-augmented retrieval-augmented generation (RAG) system that builds global context representations for improved long-context reasoning. Implemented a multi-stage pipeline (memory → query rewriting → retrieval → generation) to enhance multi-hop question answering and summarization.",
+  tech: ["Python", "HuggingFace", "FAISS", "LangChain", "LLMs", "RAG", "Vector DB"],
+  category: "AI / LLM System",
+  github: "https://github.com/ekaagragupta/mem0RAG",
+  live: "#",
+  image: "🧠",
+  status: "Completed"
+},
 
+{
+  title: "SEVAS: Satellite Environmental Violation Analysis System",
+  description: "Developed a spatio-temporal AI system for detecting and forecasting environmental violations using satellite imagery. Combined CNNs, Vision Transformers, and LSTM models with NDVI/NDWI spectral analysis to predict violations 2–3 weeks in advance.",
+  tech: ["Python", "TensorFlow", "OpenCV", "Geospatial AI", "LSTM", "CNN", "Vision Transformer"],
+  category: "AI / Computer Vision",
+  github: "https://github.com/ekaagragupta/sevas",
+  live: "#",
+  image: "🌍",
+  status: "Completed"
+},
+
+{
+  title: "GETHER: Explainable AQI Forecasting System",
+  description: "Built a spatio-temporal machine learning system for air quality prediction using LSTM-based models and causal analysis. Integrated SHAP for explainability and developed counterfactual simulations to evaluate emission reduction strategies.",
+  tech: ["Python", "TensorFlow", "SHAP", "Time Series", "LSTM", "Pandas", "NumPy"],
+  category: "AI / Data Science",
+  github: "https://github.com/ekaagragupta/gether",
+  live: "#",
+  image: "🤖",
+  status: "Completed"
+},
     {
   "title": "MCA e-Consultation Sentiment Analyzer",
   "description": "Developed an AI-powered dashboard for the Ministry of Corporate Affairs that classifies citizen feedback into sentiments (positive, negative, neutral), extracts key themes with word clouds, and generates concise summaries to assist policymakers in decision-making.",
@@ -41,38 +72,7 @@ const Projects = () => {
       image: "🌐",
       status: "Completed"
     },
-    {
-  title: "MemoRAG: Memory-Augmented RAG Framework",
-  description: "Designed a memory-augmented retrieval-augmented generation (RAG) system that builds global context representations for improved long-context reasoning. Implemented a multi-stage pipeline (memory → query rewriting → retrieval → generation) to enhance multi-hop question answering and summarization.",
-  tech: ["Python", "HuggingFace", "FAISS", "LangChain", "LLMs", "RAG", "Vector DB"],
-  category: "AI / LLM System",
-  github: "https://github.com/ekaagragupta/mem0RAG",
-  live: "#",
-  image: "🧠",
-  status: "Completed"
-},
-
-{
-  title: "SEVAS: Satellite Environmental Violation Analysis System",
-  description: "Developed a spatio-temporal AI system for detecting and forecasting environmental violations using satellite imagery. Combined CNNs, Vision Transformers, and LSTM models with NDVI/NDWI spectral analysis to predict violations 2–3 weeks in advance.",
-  tech: ["Python", "TensorFlow", "OpenCV", "Geospatial AI", "LSTM", "CNN", "Vision Transformer"],
-  category: "AI / Computer Vision",
-  github: "https://github.com/ekaagragupta/sevas",
-  live: "#",
-  image: "🌍",
-  status: "Completed"
-},
-
-{
-  title: "GETHER: Explainable AQI Forecasting System",
-  description: "Built a spatio-temporal machine learning system for air quality prediction using LSTM-based models and causal analysis. Integrated SHAP for explainability and developed counterfactual simulations to evaluate emission reduction strategies.",
-  tech: ["Python", "TensorFlow", "SHAP", "Time Series", "LSTM", "Pandas", "NumPy"],
-  category: "AI / Data Science",
-  github: "https://github.com/ekaagragupta/gether",
-  live: "#",
-  image: "🤖",
-  status: "Completed"
-}
+    
   ];
 
   const filteredProjects = activeFilter === "All" 
