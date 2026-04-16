@@ -5,7 +5,7 @@ import { useState } from "react";
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const filters = ["All", "AI-ML", "Web Dev", "C-Programs"];
+  const filters = ["All", "AI-ML", "Web Dev"];
 
   const projects = [
 {
