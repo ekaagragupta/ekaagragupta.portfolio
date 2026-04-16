@@ -5,11 +5,11 @@ const Skills = () => {
 
   const skills = [
     { name: "Python", level: 90, color: "from-yellow-400 to-blue-500", icon: "🐍" },
-    { name: "JavaScript", level: 85, color: "from-yellow-300 to-yellow-600", icon: "⚡" },
+    { name: "Scikit-learn", level: 85, color: "from-yellow-300 to-yellow-600", icon: "⚡" },
     { name: "C++", level: 80, color: "from-blue-400 to-blue-700", icon: "⚙️" },
-    { name: "Java", level: 75, color: "from-orange-400 to-red-600", icon: "☕" },
-    { name: "TypeScript", level: 85, color: "from-gray-400 to-gray-700", icon: "🔧" },
-    { name: "SQL", level: 65, color: "from-green-400 to-teal-600", icon: "🗄️" }
+    { name: "RAG", level: 75, color: "from-orange-400 to-red-600", icon: "☕" },
+    { name: "LangChain", level: 85, color: "from-gray-400 to-gray-700", icon: "🔧" },
+    { name: "LLMs", level: 65, color: "from-green-400 to-teal-600", icon: "🗄️" }
   ];
 
   return (
