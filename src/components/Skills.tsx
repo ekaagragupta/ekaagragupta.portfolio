@@ -8,8 +8,8 @@ const Skills = () => {
     { name: "Scikit-learn", level: 85, color: "from-yellow-300 to-yellow-600", icon: "⚡" },
     { name: "C++", level: 80, color: "from-blue-400 to-blue-700", icon: "⚙️" },
     { name: "RAG", level: 75, color: "from-orange-400 to-red-600", icon: "☕" },
-    { name: "LangChain", level: 85, color: "from-gray-400 to-gray-700", icon: "🔧" },
-    { name: "LLMs", level: 65, color: "from-green-400 to-teal-600", icon: "🗄️" }
+    { name: "Deep Learning", level: 85, color: "from-gray-400 to-gray-700", icon: "🔧" },
+    { name: "NLP", level: 65, color: "from-green-400 to-teal-600", icon: "🗄️" }
   ];
 
   return (
@@ -78,7 +78,7 @@ const Skills = () => {
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-semibold mb-8 text-primary">Also Familiar With</h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {['Git', 'React', 'Node.js', 'TailwindCSS', 'MongoDB', 'Figma', 'Notion', 'Agile Methodologies'].map((tech, index) => (
+            {['Git', 'Computer Vision', 'LLMs', 'HuggingFace Transformers', 'LangChain', 'SQL', 'Notion', 'Google Colab','Docker'].map((tech, index) => (
               <span 
                 key={tech}
                 className="px-4 py-2 bg-card border border-border/50 rounded-full text-sm hover:border-primary/50 transition-all duration-300 hover:scale-105 animate-fade-in"
