@@ -5,7 +5,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const [text, setText] = useState("");
-  const fullText = "Transforming Ideas into Code";
+  const fullText = "⟡ ⋆ why code works, not just syntax ⋆ ⟡";
 
   useEffect(() => {
     let index = 0;
